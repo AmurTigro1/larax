@@ -19,3 +19,20 @@
         <strong>Success!</strong> The product has been added successfully!
     </div>
 </div>
+<div id="name_error" hx-swap-oob="true" >
+</div> 
+
+<div id="img_error" hx-swap-oob="true" >
+</div>
+ 
+<div id="price_error" hx-swap-oob="true" >
+</div>
+ 
+<div id="description_error" hx-swap-oob="true" >
+    
+</div>
+
+ 
+<div id="quantity_error" hx-swap-oob="true" >
+    
+</div>

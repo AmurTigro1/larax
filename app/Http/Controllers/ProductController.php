@@ -47,7 +47,7 @@ class ProductController extends Controller
 
         if($validator->fails()) {
             $products = Product::orderBy('name');
-            return view('templates._create-products-error', ['errors'=>$validator->errors()->all(), 'products'=>$products]);
+            return view('templates._create-products-error', ['errors'=>$validator->errors(), 'products'=>$products]);
         };
 
         $products = Product::orderBy('name');
